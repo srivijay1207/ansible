@@ -5,8 +5,8 @@
     x: hello
     y: welcome to ansible
   tasks:
-   - name: printing hello welcome to ansible
-     ansible.builtin.debug:
+  - name: printing hello welcome to ansible
+    ansible.builtin.debug:
       msg: "i am saying {{x}}, please {{y}}"
 
   

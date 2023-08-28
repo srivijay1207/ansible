@@ -1,5 +1,5 @@
 - name: variables in ansible
-  hosts: mongodb
+  hosts: mangodb
   # This is Play level variables, map
   vars:
     COURSE: DevOps with AWS

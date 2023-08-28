@@ -1,0 +1,12 @@
+- name: variable practice
+  hosts: mango db
+  vars:
+
+    x: hello
+    y: welcome to ansible
+  tasks:
+   - name: printing hello welcome to ansible
+     ansible.built.in.debug:
+      msg: "i am saying {{x}}, please {{y}}"
+
+  

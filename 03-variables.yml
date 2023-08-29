@@ -6,5 +6,5 @@
   tasks:
   - name: print values
     ansible.builtin.debug:
-      msg: x value -"{{x}},y value- {{y}}"
+      msg: "x value -{{x}},y value- {{y}}"
 

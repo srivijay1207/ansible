@@ -1,0 +1,10 @@
+- name: varibles declaring
+  hosts: nginx
+  vars:
+    x: 2
+    y: srinu
+  tasks:
+  - name: print values
+    ansible.builtin.debug:
+      msg: x value -"{{x}},y value- {{y}}"
+

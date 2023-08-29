@@ -1,8 +1,8 @@
-- name: varibles printing
+- name: varibles from files
   hosts: nginx
-  vars_files:
-  - 04-var-files.yml
+  vars:
+    course: AWS AND DEVOPS
   tasks:
   - name: printing variables
     ansible.builtin.debug:
-      msg: "we are learning {{COURSE}}"
+      msg: "we are learning {{course}}"

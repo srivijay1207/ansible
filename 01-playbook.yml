@@ -2,5 +2,6 @@
   hosts: nginx
   tasks:
   - name: ping server
-  ansible.builtin.ping:
+    ansible.builtin.ping:
+
   

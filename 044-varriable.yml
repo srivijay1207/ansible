@@ -1,7 +1,7 @@
 - name: varibles printing
   hosts: nginx
   vars_files:
-  - var-files.yml
+  - 04-var-files.yml
   tasks:
   - name: printing variables
     ansible.builtin.debug:

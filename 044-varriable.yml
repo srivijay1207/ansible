@@ -1,0 +1,8 @@
+- name: varibles printing
+  hosts: nginx
+  vars_files:
+  - var-files.yml
+  tasks:
+  - name: printing variables
+    ansible.builtin.debug:
+      msg: "we are learning {{COURSE}}"
